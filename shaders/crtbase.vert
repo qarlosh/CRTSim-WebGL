@@ -1,0 +1,9 @@
+//////////////////////////////////////////////////////////////////////////
+//
+// CC0 1.0 Universal (CC0 1.0)
+// Public Domain Dedication 
+//
+//////////////////////////////////////////////////////////////////////////
+
+// Common code shared by the screen and frame effects.
+// Provides a function for sampling into the "in-CRT" composite image with "in-world" effects applied.

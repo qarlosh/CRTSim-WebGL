@@ -1,0 +1,15 @@
+//////////////////////////////////////////////////////////////////////////
+//
+// CC0 1.0 Universal (CC0 1.0)
+// Public Domain Dedication 
+//
+//////////////////////////////////////////////////////////////////////////
+
+precision mediump float;
+
+uniform sampler2D sampler;
+varying vec2 vTextureCoord;
+
+void main(void) {
+	gl_FragColor = texture2D(sampler, vTextureCoord);
+}
